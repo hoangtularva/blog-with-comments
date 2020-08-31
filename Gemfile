@@ -56,6 +56,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Guard is a command line tool to easily handle events on file system modifications.
+  # bundle exec guard
   gem 'guard', '~> 2.14', '>= 2.14.1'
   # reload the browser after changes to assets/helpers/tests 
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
